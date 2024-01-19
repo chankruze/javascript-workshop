@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-👋 Welcome to the JavaScript Learning Playground! We're thrilled that you're interested in contributing to this repository and helping fellow learners on their JavaScript journey. Before you start, please take a moment to review the guidelines below.
+👋 Welcome to the JavaScript Workshop! We're thrilled that you're interested in contributing to this repository and helping fellow learners on their JavaScript journey. Before you start, please take a moment to review the guidelines below.
 
 ## Getting Started
 
@@ -41,6 +41,17 @@
 - Ensure your task is placed in the appropriate directory within the "Tasks" folder.
 - Include a clear and concise task description in the task file.
 - If applicable, provide hints or additional information in the task file.
+- In case if a problem requires multiple files (i.e. html, css and javascript files) then you must create a folder following the issue's description.
+- Don't name a folder with white sapces. Always use `your-folder-name` pattern for naming your folders.
+- I will enforce linting and formatting rules to the repo but if in case your code is not formatted properly then use [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to format your code before commiting.
+- Use popular text editors like vs code, sublime or atom instead of using notepad.
+
+### Javascript Specific
+
+- Try to add comments in javascript code.
+- Try to give meaningful names to the variables you declare.
+- Follow `camelCase` for variable name declaration.
+- Use `UPPERCASE` for naming constants.
 
 ### Code Quality
 
